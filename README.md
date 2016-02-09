@@ -234,10 +234,15 @@ Shell aliases and scripts:
 Thanks
 ------
 
-Thanks you,
-![thoughtbot](https://thoughtbot.com/logo.png)
+Thanks you thoughtbot.
 
 Thank you, [contributors](https://github.com/thoughtbot/dotfiles/contributors)!
 Also, thank you to Corey Haines, Gary Bernhardt, and others for sharing your
 dotfiles and other shell scripts from which we derived inspiration for items
 in this project.
+
+License
+-------
+
+This is free software, and may be
+redistributed under the terms specified in the [`LICENSE`] file.
