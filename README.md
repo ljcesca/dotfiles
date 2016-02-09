@@ -220,6 +220,7 @@ configuration:
 
 * Add trusted binstubs to the `PATH`.
 * Load the ASDF version manager.
+* Loads chruby and enables auto-switching.
 
 Shell aliases and scripts:
 
