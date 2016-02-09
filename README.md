@@ -234,30 +234,10 @@ Shell aliases and scripts:
 Thanks
 ------
 
+Thanks you,
+![thoughtbot](https://thoughtbot.com/logo.png)
+
 Thank you, [contributors](https://github.com/thoughtbot/dotfiles/contributors)!
 Also, thank you to Corey Haines, Gary Bernhardt, and others for sharing your
 dotfiles and other shell scripts from which we derived inspiration for items
 in this project.
-
-License
--------
-
-dotfiles is copyright © 2009-2018 thoughtbot. It is free software, and may be
-redistributed under the terms specified in the [`LICENSE`] file.
-
-[`LICENSE`]: /LICENSE
-
-About thoughtbot
-----------------
-
-![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
-
-dotfiles is maintained and funded by thoughtbot, inc.
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
-
-We love open source software!
-See [our other projects][community].
-We are [available for hire][hire].
-
-[community]: https://thoughtbot.com/community?utm_source=github
-[hire]: https://thoughtbot.com/hire-us?utm_source=github
