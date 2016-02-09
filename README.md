@@ -234,7 +234,7 @@ Shell aliases and scripts:
 Thanks
 ------
 
-Thanks you thoughtbot.
+Thank you thoughtbot.
 
 Thank you, [contributors](https://github.com/thoughtbot/dotfiles/contributors)!
 Also, thank you to Corey Haines, Gary Bernhardt, and others for sharing your
