@@ -169,6 +169,10 @@ set complete+=kspell
 " Always use vertical diffs
 set diffopt+=vertical
 
+set background=dark
+let base16colorspace=256
+colorscheme base16-tomorrow
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local

@@ -38,6 +38,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
 Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
+Plug 'chriskempson/base16-vim'
 
 if g:has_async
   Plug 'w0rp/ale'

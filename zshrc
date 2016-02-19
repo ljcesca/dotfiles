@@ -41,6 +41,12 @@ _load_settings() {
 }
 _load_settings "$HOME/.zsh/configs"
 
+BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
+# aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
