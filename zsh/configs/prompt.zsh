@@ -22,5 +22,6 @@ ruby_prompt_info() {
 setopt promptsubst
 
 if ! env | grep -q '^PS1='; then
-	PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info)$(ruby_prompt_info) %# '
+	NEWLINE=$'\n'
+	PS1="${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info)$(ruby_prompt_info)${NEWLINE}%# "
 fi
