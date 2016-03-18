@@ -162,6 +162,8 @@ nnoremap [r :ALEPreviousWrap<CR>
 
 let g:ctrlp_reuse_window = 'netrw\|help\|quickfix\|nerd\|NERD'
 
+let g:rspec_command = "!clear && echo bundle exec rspec && bundle exec rspec {spec}"
+
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
 set spellfile=$HOME/.vim-spell-en.utf-8.add
