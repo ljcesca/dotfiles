@@ -175,8 +175,11 @@ set complete+=kspell
 set diffopt+=vertical
 
 set background=dark
-let base16colorspace=256
-colorscheme base16-tomorrow
+
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 
 " Local config
 if filereadable($HOME . "/.vimrc.local")
