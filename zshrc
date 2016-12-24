@@ -53,3 +53,6 @@ base16_tomorrow-night
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+export NVM_DIR="/Users/ljcesca/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
