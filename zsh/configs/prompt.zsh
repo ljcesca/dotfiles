@@ -13,8 +13,6 @@ ruby_prompt_info() {
       return
     fi
 
-
-
     echo " %{$fg_bold[magenta]%}$current_ruby%{$reset_color%}"
   fi
 }
