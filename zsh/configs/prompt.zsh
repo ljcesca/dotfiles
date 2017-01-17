@@ -17,9 +17,20 @@ ruby_prompt_info() {
   fi
 }
 
+node_prompt_info() {
+  if command -v nvm > /dev/null 2>&1; then
+    current_node=$(nvm current | sed  -n -e 's/v//p')
+    if [[ -z $current_node ]] || [[ $current_node == 'none' ]]; then
+      return
+    fi
+
+    echo " %{$fg_bold[magenta]%}$current_node%{$reset_color%}"
+  fi
+}
+
 setopt promptsubst
 
 if ! env | grep -q '^PS1='; then
 	NEWLINE=$'\n'
-	PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info)$(ruby_prompt_info)${NEWLINE}%# '
+	PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info)$(ruby_prompt_info)$(node_prompt_info)${NEWLINE}%# '
 fi
