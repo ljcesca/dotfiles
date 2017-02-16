@@ -24,7 +24,7 @@ node_prompt_info() {
       return
     fi
 
-    echo " %{$fg_bold[magenta]%}$current_node%{$reset_color%}"
+    echo " %{$fg_bold[yellow]%}$current_node%{$reset_color%}"
   fi
 }
 
