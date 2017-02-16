@@ -177,6 +177,9 @@ set diffopt+=vertical
 
 set background=dark
 
+autocmd BufRead *.clj try | silent! Require | catch /^Fireplace/ | endtry
+autocmd Syntax clojure EnableSyntaxExtension
+
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
