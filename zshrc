@@ -47,3 +47,5 @@ _load_settings "$HOME/.zsh/configs"
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
+if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then source "$HOME/google-cloud-sdk/path.zsh.inc"; fi
+if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then source "$HOME/google-cloud-sdk/completion.zsh.inc"; fi
