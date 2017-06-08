@@ -49,6 +49,7 @@ Plug 'chriskempson/base16-vim'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
+Plug 'fatih/vim-go'
 
 if g:has_async
   Plug 'w0rp/ale'
