@@ -49,3 +49,4 @@ _load_settings "$HOME/.zsh/configs"
 
 if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then source "$HOME/google-cloud-sdk/path.zsh.inc"; fi
 if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then source "$HOME/google-cloud-sdk/completion.zsh.inc"; fi
+which go >& /dev/null && export GOPATH=$(go env GOPATH)
