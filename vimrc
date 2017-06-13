@@ -183,6 +183,7 @@ set background=dark
 
 autocmd BufRead *.clj try | silent! Require | catch /^Fireplace/ | endtry
 autocmd Syntax clojure EnableSyntaxExtension
+autocmd Filetype go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
