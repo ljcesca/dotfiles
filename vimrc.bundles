@@ -50,6 +50,7 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'leafgarland/typescript-vim'
 
 if g:has_async
   Plug 'w0rp/ale'
