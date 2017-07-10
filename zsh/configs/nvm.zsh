@@ -1,8 +1,8 @@
 export NVM_DIR=$HOME/.nvm
 
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR" ] && [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 
-if [ -s "$NVM_DIR/nvm.sh" ]; then
+if [ -s "/usr/local/opt/nvm/nvm.sh" ]; then
   autoload -U add-zsh-hook
   load-nvmrc() {
     local node_version="$(nvm version)"
