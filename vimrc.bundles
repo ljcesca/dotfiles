@@ -47,11 +47,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'chriskempson/base16-vim'
 Plug 'tmux-plugins/vim-tmux-focus-events'
-Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-Plug 'leafgarland/typescript-vim'
-Plug 'ianks/vim-tsx'
 
 if g:has_async
   Plug 'w0rp/ale'
