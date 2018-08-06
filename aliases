@@ -18,5 +18,8 @@ alias s="rspec"
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
+# AG
+alias ag="ag --path-to-ignore ~/.ignore"
+
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
