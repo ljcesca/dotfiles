@@ -1,11 +1,10 @@
 .git/
-tags
-/bower_components/
-/log
-/node_modules/
-/tmp
-/vendor
+tags/
 bower_components/
+log/
 node_modules/
+tmp/
+vendor/
+bower_components/
 public/packs/
 public/assets/
