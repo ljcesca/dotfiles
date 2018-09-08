@@ -11,6 +11,9 @@ alias td="todo.sh"
 # Bundler
 alias b="bundle"
 
+# Docker Compose
+alias comp="docker-compose"
+
 # Rails
 alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
 alias s="rspec"
