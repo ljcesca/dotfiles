@@ -48,6 +48,7 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'leafgarland/typescript-vim'
 Plug 'hashivim/vim-terraform'
 Plug 'martinda/Jenkinsfile-vim-syntax'
+Plug 'google/vim-jsonnet'
 
 if g:has_async
   Plug 'w0rp/ale'
