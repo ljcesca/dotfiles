@@ -43,7 +43,9 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 Plug 'hashivim/vim-terraform'
+Plug 'jparise/vim-graphql'
 
 if g:has_async
   Plug 'w0rp/ale'
