@@ -1,0 +1,12 @@
+UnPlug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+
+Plug 'airblade/vim-gitgutter'
+Plug 'tmux-plugins/vim-tmux-focus-events'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'hashivim/vim-terraform'
+Plug 'jparise/vim-graphql'
+
+Plug 'chriskempson/base16-vim'

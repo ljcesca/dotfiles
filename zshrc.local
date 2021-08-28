@@ -1,0 +1,5 @@
+eval "$("$HOME/.config/base16-shell/profile_helper.sh")"
+
+base16_default-dark
+
+eval "$(/opt/homebrew/bin/brew shellenv)"

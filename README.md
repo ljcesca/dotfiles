@@ -10,9 +10,10 @@ Clone this to `~/dotfiles-local`:
 git clone git://github.com/ljcesca/dotfiles.git ~/dotfiles-local
 ````
 
-Clone [base16](https://github.com/chriskempson/base16) into `~/.config`:
+Clone [base16-shell](https://github.com/chriskempson/base16-shell) into `~/.config`:
 ```
-git clone https://github.com/chriskempson/base16.git ~/.config/base16
+git clone https://github.com/chriskempson/base16-shell.git
+~/.config/base16-shell
 ```
 
 Re-run `rcup`.
