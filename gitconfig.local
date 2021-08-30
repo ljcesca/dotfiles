@@ -3,3 +3,5 @@
   email = ljcesca@gmail.com
 [commit]
   gpgsign = true
+[include]
+  path = ~/.gitconfig.local.secret
