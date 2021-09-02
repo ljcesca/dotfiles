@@ -2,6 +2,7 @@
   name = Lucian Cesca
   email = ljcesca@gmail.com
 [commit]
+  gpsign = true
   gpgsign = true
 [include]
   path = ~/.gitconfig.local.secret

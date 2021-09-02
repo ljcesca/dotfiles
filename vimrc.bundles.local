@@ -10,3 +10,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'jparise/vim-graphql'
 
 Plug 'chriskempson/base16-vim'
+
+Plug 'prettier/vim-prettier', {
+      \ 'do': 'npm install',
+      \ 'for': ['javascript', 'javascriptreact', 'typescript', 'typescriptreact', 'ruby', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'yaml', 'html'] }
