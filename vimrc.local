@@ -4,8 +4,6 @@ set formatoptions=cq " dont' insert wrap characters
 
 let g:jsx_ext_required = 0 " allow JSX in JS files
 
-set background=dark
-
 " TODO later is the below still better?
 " autocmd Filetype go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
 
@@ -18,3 +16,27 @@ colorscheme base16-default-dark
 
 let g:prettier#autoformat_require_pragma = 0
 let g:prettier#autoformat_config_present = 1
+
+autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
+autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+
+" Run NeoMake on read and write operations
+autocmd! BufReadPost,BufWritePost * Neomake
+
+" Disable inherited syntastic
+let g:syntastic_mode_map = {
+  \ "mode": "passive",
+  \ "active_filetypes": [],
+  \ "passive_filetypes": [] }
+
+let g:neomake_serialize = 1
+let g:neomake_serialize_abort_on_error = 1
+
+let g:coc_global_extensions = ['coc-tsserver']
+if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
+  let g:coc_global_extensions += ['coc-prettier']
+endif
+
+if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
+  let g:coc_global_extensions += ['coc-eslint']
+endif
