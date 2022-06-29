@@ -2,11 +2,10 @@ unset HOMEBREW_NO_ANALYTICS
 
 eval "$("$HOME/.config/base16-shell/profile_helper.sh")"
 
+export SSH_AUTH_SOCK=/Users/lucian/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
 base16_default-dark
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-if [ -n "$ZSH_VERSION" ]; then
-  source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-  source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-fi
+. /opt/homebrew/opt/asdf/libexec/asdf.sh

@@ -4,3 +4,12 @@
 # set -g focus-events on
 
 set -g default-command "${SHELL}"
+
+# List of plugins
+set -g @tpm_plugins '          \
+  tmux-plugins/tpm             \
+  tmux-plugins/tmux-yank       \
+'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'

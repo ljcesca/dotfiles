@@ -15,6 +15,11 @@ Clone [base16-shell](https://github.com/chriskempson/base16-shell) into `~/.conf
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 ```
 
+Install [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm):
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 Re-run `rcup`.
 
 

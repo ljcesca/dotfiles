@@ -1,1 +1,6 @@
 alias vim="nvim"
+
+if [[ -f ~/.aliases.private ]]; then
+  source ~/.aliases.private
+fi
+

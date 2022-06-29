@@ -2,10 +2,12 @@ set autoread " enable autoreload of files
 
 set formatoptions=cq " dont' insert wrap characters
 
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>
+
 let g:jsx_ext_required = 0 " allow JSX in JS files
 
-" TODO later is the below still better?
-" autocmd Filetype go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
+autocmd Filetype go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
@@ -40,3 +42,4 @@ endif
 if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
   let g:coc_global_extensions += ['coc-eslint']
 endif
+
