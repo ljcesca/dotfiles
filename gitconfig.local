@@ -4,3 +4,5 @@
   signingkey = D8FA96816A11D3D3
 [commit]
   gpgsign = true
+[includeIf "gitdir:~/hydra-src/"]
+  path = ~/hydra-src/.gitconfig_include
