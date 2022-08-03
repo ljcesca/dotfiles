@@ -4,7 +4,11 @@ eval "$("$HOME/.config/base16-shell/profile_helper.sh")"
 
 export SSH_AUTH_SOCK=/Users/lucian/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 
+export GPG_TTY=$(tty)
+
 base16_default-dark
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 

@@ -1,3 +1,6 @@
 [user]
   name = Lucian Cesca
   email = ljcesca@gmail.com
+  signingkey = D8FA96816A11D3D3
+[commit]
+  gpgsign = true

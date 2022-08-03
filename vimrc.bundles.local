@@ -10,7 +10,7 @@ Plug 'peitalin/vim-jsx-typescript'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Plug 'hashivim/vim-terraform'
+Plug 'hashivim/vim-terraform'
 " Plug 'jparise/vim-graphql'
 
 Plug 'neomake/neomake'
