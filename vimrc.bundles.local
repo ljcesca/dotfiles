@@ -8,11 +8,6 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 Plug 'hashivim/vim-terraform'
 " Plug 'jparise/vim-graphql'
 
-Plug 'neomake/neomake'
-
-Plug 'chriskempson/base16-vim'

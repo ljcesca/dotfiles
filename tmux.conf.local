@@ -5,6 +5,8 @@
 
 set -g default-command "${SHELL}"
 
+set -g allow-passthrough 1
+
 # List of plugins
 set -g @tpm_plugins '          \
   tmux-plugins/tpm             \

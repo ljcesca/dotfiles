@@ -9,37 +9,13 @@ let g:jsx_ext_required = 0 " allow JSX in JS files
 
 autocmd Filetype go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
 
-if filereadable(expand("~/.vimrc_background"))
-  let base16colorspace=256
-  source ~/.vimrc_background
-endif
-
-colorscheme base16-default-dark
-
-let g:prettier#autoformat_require_pragma = 0
-let g:prettier#autoformat_config_present = 1
-
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 
-" Run NeoMake on read and write operations
-autocmd! BufReadPost,BufWritePost * Neomake
+let g:ale_set_highlights = 0
+let g:ale_sign_column_always = 1
 
-" Disable inherited syntastic
-let g:syntastic_mode_map = {
-  \ "mode": "passive",
-  \ "active_filetypes": [],
-  \ "passive_filetypes": [] }
+let g:ale_linters = {'ruby': ['rubocop']}
 
-let g:neomake_serialize = 1
-let g:neomake_serialize_abort_on_error = 1
-
-let g:coc_global_extensions = ['coc-tsserver']
-if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
-  let g:coc_global_extensions += ['coc-prettier']
-endif
-
-if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
-  let g:coc_global_extensions += ['coc-eslint']
-endif
-
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {'ruby': ['rubocop']}
