@@ -4,5 +4,5 @@
   signingkey = 83F5F925387FF749
 [commit]
   gpgsign = true
-[includeIf "gitdir:~/hydra-src/"]
-  path = ~/hydra-src/.gitconfig_include
+[includeIf "gitdir:~/onehouse-src/"]
+  path = ~/onehouse-src/.gitconfig_include
