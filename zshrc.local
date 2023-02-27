@@ -4,6 +4,8 @@ export SSH_AUTH_SOCK=/Users/lucian/Library/Containers/com.maxgoedjen.Secretive.S
 
 export GPG_TTY=$(tty)
 
+export HOMEBREW_NO_ENV_HINTS=1
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -17,3 +19,8 @@ if [ -f '/Users/lucian/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/lucian/g
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/lucian/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lucian/google-cloud-sdk/completion.zsh.inc'; fi
+
+if [[ -f ~/.zshrc.private ]]; then
+  source ~/.zshrc.private
+fi
+
