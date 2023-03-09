@@ -20,6 +20,8 @@ Install [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm):
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
+Then inside of tmux press prefix + I (capital i, as in Install) to fetch the plugins.
+
 Re-run `rcup`.
 
 

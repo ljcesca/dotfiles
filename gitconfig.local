@@ -4,6 +4,8 @@
   signingkey = 83F5F925387FF749
 [commit]
   gpgsign = true
+[advice]
+  skippedCherryPicks = false
 [includeIf "gitdir:~/"]
   path = ~/.gitconfig_include
 [includeIf "gitdir:~/onehouse-src/"]
