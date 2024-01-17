@@ -9,8 +9,6 @@
   excludesfile = ~/.gitignore
   autocrlf = input
   editor = vim
-[help]
-  autocorrect = 1
 [push]
   default = simple
 [credential]
