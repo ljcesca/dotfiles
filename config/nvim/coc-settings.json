@@ -1,9 +1,0 @@
-{
-  "diagnostic.displayByAle": true,
-  "codeLens.enable": true,
-  "solargraph.diagnostics": true,
-  "solargraph.commandPath": "~/.asdf/shims/solargraph",
-  "solargraph.autoformat": true,
-  "solargraph.formatting": true,
-  "solargraph.hover": true
-}

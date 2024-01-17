@@ -1,0 +1,21 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+
+brew 'awscli'
+brew 'colima'
+brew 'docker'
+brew 'docker-buildx'
+brew 'docker-compose'
+brew 'git'
+brew 'gnupg'
+brew 'jq'
+brew 'pinentry-mac'
+brew 'the_silver_searcher'
+brew 'wget'
+brew 'vim'
+brew 'zsh'
+
+cask 'raycast'
+cask 'warp'
+cask 'visual-studio-code'
