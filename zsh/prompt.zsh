@@ -14,7 +14,7 @@ git_branch() {
 }
 
 git_dirty() {
-  if $(! $git status -s &> /dev/null)
+  if $(! $($git rev-parse --is-inside-work-tree 2>/dev/null))
   then
     echo ""
   else
