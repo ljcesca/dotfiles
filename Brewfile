@@ -16,6 +16,8 @@ brew 'the_silver_searcher'
 brew 'wget'
 brew 'neovim'
 brew 'zsh'
+brew 'tmux'
+brew 'starship'
 
 cask 'raycast'
 cask 'visual-studio-code'

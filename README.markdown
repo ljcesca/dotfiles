@@ -16,7 +16,16 @@ The main file to change is `zsh/zshrc.symlink`, which sets up a paths that'll be
 
 `dot` is a script that installs some dependencies, sets sane macOS defaults, and so on. Tweak this script, and occasionally run it to keep your environment up-to-date. You can find this script in `bin/`.
 
-## components
+### Shell
+
+Add the output of which zsh to /etc/shells
+chsh -s $(which zsh)
+
+### Fonts
+
+A [nerd font](https://www.nerdfonts.com) is required. Give IntoneMono a try.
+
+## Components
 
 There are a few special files in the hierarchy.
 
