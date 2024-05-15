@@ -1,6 +1,0 @@
-call plug#begin('~/.vim/bundle')
-
-" Define bundles via Github repos
-Plug 'christoomey/vim-run-interactive'
-
-call plug#end()
