@@ -37,6 +37,7 @@ cask 'tailscale'
 cask 'xcodes'
 cask 'steermouse'
 cask 'secretive'
+cask 'scroll-reverser'
 
 cask 'font-sf-mono'
 cask 'font-iosevka'
