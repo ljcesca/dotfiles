@@ -1,0 +1,14 @@
+unbind C-b
+set-option -g prefix C-s
+bind-key C-s send-prefix
+
+# Enable mouse control (clickable windows, panes, resizable panes)
+set -g mouse on
+
+# Start windows and panes at 1, not 0
+set -g base-index 1
+setw -g pane-base-index 1
+
+# split-windows keep the current path
+bind  %  split-window -h -c "#{pane_current_path}"
+bind '"' split-window -v -c "#{pane_current_path}"
