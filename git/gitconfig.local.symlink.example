@@ -3,3 +3,8 @@
   email = AUTHOREMAIL
 [credential]
   helper = GIT_CREDENTIAL_HELPER
+[gpg]
+  signingkey = SIGNING_KEY
+
+[includeIf "gitdir:~/foo-src/"]
+  path = ~/.gitconfig_foo
