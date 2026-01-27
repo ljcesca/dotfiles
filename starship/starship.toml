@@ -34,9 +34,6 @@ format = '\[[$symbol($version)]($style)\]'
 [docker_context]
 format = '\[[$symbol$context]($style)\]'
 
-[dotnet]
-format = '\[[$symbol($version)(🎯 $tfm)]($style)\]'
-
 [elixir]
 format = '\[[$symbol($version \(OTP $otp_version\))]($style)\]'
 
