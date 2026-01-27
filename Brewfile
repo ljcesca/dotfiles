@@ -13,7 +13,6 @@ brew 'neovim'
 brew 'zsh'
 brew 'tmux'
 brew 'starship'
-brew 'asimov'
 
 # Neovim dependencies
 brew 'ripgrep'
