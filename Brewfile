@@ -38,8 +38,6 @@ cask 'xcodes-app'
 cask 'steermouse'
 cask 'secretive'
 cask 'scroll-reverser'
-cask 'chatgpt'
-cask 'cursor'
 
 cask 'font-sf-mono'
 cask 'font-iosevka'
