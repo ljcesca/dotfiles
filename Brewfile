@@ -13,6 +13,7 @@ brew 'neovim'
 brew 'zsh'
 brew 'tmux'
 brew 'starship'
+brew 'coreutils'
 
 # Neovim dependencies
 brew 'ripgrep'
@@ -36,6 +37,7 @@ cask 'xcodes-app'
 cask 'steermouse'
 cask 'secretive'
 cask 'scroll-reverser'
+cask 'visual-studio-code'
 
 cask 'font-sf-mono'
 cask 'font-iosevka'

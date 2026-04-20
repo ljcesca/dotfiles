@@ -31,6 +31,10 @@ format = '\[[$symbol($version)]($style)\]'
 [deno]
 format = '\[[$symbol($version)]($style)\]'
 
+[direnv]
+format = '\[[$symbol$loaded/$allowed]($style)\]'
+disabled = false
+
 [docker_context]
 format = '\[[$symbol$context]($style)\]'
 

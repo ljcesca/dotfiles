@@ -2,6 +2,7 @@ unbind C-b
 set-option -g prefix C-s
 bind-key C-s send-prefix
 
+set -g history-limit 100000
 # Enable mouse control (clickable windows, panes, resizable panes)
 set -g mouse on
 

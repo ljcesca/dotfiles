@@ -1,5 +1,6 @@
 dotnet 8.0.408
 ruby 3.4.5
-python system
+python 3.14.3t
 python3 system
 lua 5.1
+nodejs 24.13.1
