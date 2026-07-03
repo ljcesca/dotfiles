@@ -1,6 +1,9 @@
 [aws]
 format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
 
+[buf]
+disabled = true
+
 [bun]
 format = '\[[$symbol($version)]($style)\]'
 
