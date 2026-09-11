@@ -37,6 +37,7 @@ cask 'steermouse'
 cask 'secretive'
 cask 'scroll-reverser'
 cask 'visual-studio-code'
+cask 'ghostty'
 
 cask 'font-sf-mono'
 cask 'font-iosevka'
