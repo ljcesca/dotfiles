@@ -6,6 +6,8 @@ set -g history-limit 100000
 # Enable mouse control (clickable windows, panes, resizable panes)
 set -g mouse on
 
+set -g focus-events on
+
 # Start windows and panes at 1, not 0
 set -g base-index 1
 setw -g pane-base-index 1
