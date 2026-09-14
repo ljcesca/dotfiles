@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "skillOverrides": {
+    "agents-sdk": "off",
+    "cloudflare": "off",
+    "cloudflare-email-service": "off",
+    "cloudflare-one": "off",
+    "cloudflare-one-migrations": "off",
+    "durable-objects": "off",
+    "nextjs-on-cloudflare": "off",
+    "sandbox-migrate-to-next": "off",
+    "sandbox-next": "off",
+    "sandbox-sdk": "off",
+    "sandbox-stable": "off",
+    "turnstile-spin": "off",
+    "web-perf": "off",
+    "workers-best-practices": "off",
+    "wrangler": "off"
+  },
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "opus"
+  },
+  "effortLevel": "xhigh",
+  "modelSettings": {
+    "claude-opus-5": {
+      "effortLevel": "high"
+    },
+    "claude-fable-5-1": {
+      "effortLevel": "high"
+    }
+  },
+  "tui": "fullscreen",
+  "theme": "auto"
+}
